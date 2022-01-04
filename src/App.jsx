@@ -1,26 +1,17 @@
 
 import './App.css'
-import LeftMenu from './components/header/left-menu'
-import Search from './components/header/search'
-import LeftNav from './components/main/left-nav'
+import Header from './components/header/Header'
+import LeftNav from './components/leftNav'
+import Main from './components/main/Main'
+
 
 function App() {
 
   return (
-    <div className="App">
-
-      <header className="header">
-        <LeftMenu />
-        <Search />
-      </header>
+    <div className="app">
+      <Header />
       <LeftNav />
-      <main className="email-view">
-
-      </main>
-
-      <footer>
-
-      </footer>
+      {/* <Main /> */}
 
     </div>
   )
