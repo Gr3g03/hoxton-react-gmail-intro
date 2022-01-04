@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <LeftNav />
       {/* <Main /> */}
+      <LeftNav />
+
 
     </div>
   )
